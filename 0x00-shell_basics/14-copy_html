@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -name "*.html" -newer ../ -exec cp -u -t ../ {} +
+find . -name "*.html" -newer ../ -exec cp -u -t ../ {} +; find ../ -name "*.html" -exec ls -l {} +
+
