@@ -1,1 +1,2 @@
+#!/bin/bash
 ls -1a | sort -n | awk '{printf "%s%s", $0, NR%2 ? "," : "\n"}'
