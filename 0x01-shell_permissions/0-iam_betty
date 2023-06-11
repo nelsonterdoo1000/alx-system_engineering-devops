@@ -1,3 +1,2 @@
-#!/bin/bash
-
-echo -e "su -l betty\n"
+#!/bin/bash 
+su betty 
