@@ -1,16 +1,3 @@
-#!/bin/bash 
-directory_name="my_first_directory"
-target_directory="/tmp"
-#check if the directory already exits 
-if [ -d "$target_directory/$directory_name" ]; then
-	echo "Directory'$directory_name' already exists in '$traget_directory'"
-else 
-	# Create the directory 
-	mkdir "$target_directory/$directory_name"
-	echo "Directory '$directory_name' ccreated in '$target_directory'"
-fi 
-
-
-
-
+#!/bin/bash
+mkdir /tmp/my_first_directory
 
